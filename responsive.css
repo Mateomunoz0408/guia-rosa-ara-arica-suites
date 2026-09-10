@@ -1,0 +1,16 @@
+@media (max-width: 760px) {
+  .faq-card:nth-child(3),
+  .faq-card:nth-child(4),
+  .faq-card:nth-child(5),
+  .faq-card:nth-child(6) {
+    grid-column: auto;
+    grid-row: auto;
+  }
+
+  .faq-card:nth-child(5),
+  .faq-card:nth-child(6),
+  .faq-card:nth-child(5) .faq-card-inner,
+  .faq-card:nth-child(6) .faq-card-inner {
+    min-height: 345px;
+  }
+}
